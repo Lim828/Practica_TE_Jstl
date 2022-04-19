@@ -14,7 +14,7 @@
             <c:if test="${requestScope.op == 'modificar'}" var="res" scope="request">
                 
             </c:if>
-            tarea
+            Nuevo Libro
         </h1>
         <jsp:useBean id="miLibro" scope="request" class="com.emerii.modelo.Libro"/>
 
